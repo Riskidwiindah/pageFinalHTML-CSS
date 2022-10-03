@@ -6,7 +6,16 @@
     font-family: 'Poppins' sans-serif;
     color: rgb(90, 19, 110);
 }
+
+.container{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
 nav{
+    background: rgb(255, 255, 255);
+    border: 1px solid #bfbfbf;
+    box-shadow: 0 0 10px #aaaaaa;
     display: flex;
     justify-content: space-between;
     align-items: center;
