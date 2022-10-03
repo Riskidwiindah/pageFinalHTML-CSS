@@ -29,8 +29,9 @@ ul li a{
     border-radius: 25px;
 }
 ul li a:hover{
-    background-color: rgb(142, 86, 157);
-    color: #fff;
+    text-shadow: 2px 2px 4px rgb(255, 143, 233);
+    /* background-color: rgb(142, 86, 157);
+    color: #fff; */
 }
 .home{
     display: flex;
