@@ -6,14 +6,12 @@
     font-family: 'Poppins' sans-serif;
     color: rgb(90, 19, 110);
 }
-.blur-background{
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(50px);
-    -webkit-backdrop-filter: blur(50px);
-}
+
 .container{
     /* background: rgb(30, 185, 166); */
     background: linear-gradient(0deg, rgba(30, 185, 166, 1) 0%, rgba(47, 148,255,1) 100%);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
 }
 nav{
     background: rgb(255, 255, 255);
@@ -45,6 +43,7 @@ ul li a:hover{
     /* background-color: rgb(142, 86, 157);
     color: #fff; */
 }
+
 .home{
     display: flex;
     align-items: center;
